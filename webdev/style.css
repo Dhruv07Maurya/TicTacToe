@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play {
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+  gap: 1.5vmin;
+}
+.btn {
+  height: 100px;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+  background-color:#DDF45B;
+  border-radius: 10px;
+  border: none;
+  font-size: 40px;
+  box-shadow: 0 0 10px grey;
+}
+.reset{
+  width: 100px;
+  height: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:white;
+  background-color: #301E26;
+  border-radius: 10px;
+  border: none;box-shadow: 0 0 10px grey;
+}
+.msg{
+  color: wheat;
+  position: relative;
+  top: -40%;
+  left: 15%;
+  display: none;
+}
